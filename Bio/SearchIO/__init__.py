@@ -184,6 +184,8 @@ Support for parsing and indexing:
                       subprograms are hmmscan, hmmsearch, and phmmer.
  - hmmer2-text      - HMMER2 regular text output format. Supported HMMER2
                       subprograms are hmmpfam, hmmsearch.
+ - anarci-num       - Anarci numbered output.
+ - anarci-hits      - Anarci hits output.
 
 Support for parsing:
 
@@ -210,6 +212,8 @@ __all__ = ('read', 'parse', 'to_dict', 'index', 'index_db', 'write', 'convert')
 
 # dictionary of supported formats for parse() and read()
 _ITERATOR_MAP = {
+        'anarci-num': ('AnarciIO', 'AnarciNumParser'),
+        'anarci-hits': ('AnarciIO', 'AnarciHitsParser')
         'blast-tab': ('BlastIO', 'BlastTabParser'),
         'blast-text': ('BlastIO', 'BlastTextParser'),
         'blast-xml': ('BlastIO', 'BlastXmlParser'),
@@ -231,6 +235,8 @@ _ITERATOR_MAP = {
 
 # dictionary of supported formats for index()
 _INDEXER_MAP = {
+        'anarci-num': ('AnarciIO', 'AnarciNumIndexer'),
+        'anarci-hits': ('AnarciIO', 'AnarciHitsIndexer')
         'blast-tab': ('BlastIO', 'BlastTabIndexer'),
         'blast-xml': ('BlastIO', 'BlastXmlIndexer'),
         'blat-psl': ('BlatIO', 'BlatPslIndexer'),

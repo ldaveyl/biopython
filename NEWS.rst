@@ -39,6 +39,7 @@ possible, especially the following contributors:
 - Juraj Szász (first contribution)
 - Kai Blin
 - Konstantin Vdovkin (first contribution)
+- Lucas Davey (first contribution)
 - Maximilian Greil
 - Nick Negretti (first contribution)
 - Peter Cock
