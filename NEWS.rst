@@ -31,6 +31,7 @@ possible, especially the following contributors:
 - Chris Rands
 - Kai Blin
 - Konstantin Vdovkin (first contribution)
+- Lucas Davey (first contribution)
 - Maximilian Greil
 - Nick Negretti (first contribution)
 - Peter Cock
