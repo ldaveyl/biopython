@@ -92,12 +92,12 @@ class AnarciCommandline(AbstractCommandline):
                 sequence identical germline is assigned.'),
         _Switch(['--hmmerpath', 'hmmerpath', 'hp'],
                 'The path to the directory containing hmmer programs. \
-                (including hmmscan)'), 
+                (including hmmscan)'),
         _Switch(['--csv', 'csv'], 
                 'Write the output in csv format. Outfile must be \
                  specified. A csv file is written for each chain type \
                  <outfile>_<chain_type>.csv. Kappa and lambda are \
-                 considered together.')      
+                 considered together.')
         ]
         AbstractCommandline.__init__(self, cmd, **kwargs)
         
