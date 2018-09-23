@@ -4,7 +4,6 @@
 # as part of this package.
 
 """Factory object capable of instantiating SearchIO.parse generator objects."""
-warning.warn('Not finished')
 
 import io
 import os
