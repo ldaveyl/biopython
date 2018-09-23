@@ -213,7 +213,7 @@ __all__ = ('read', 'parse', 'to_dict', 'index', 'index_db', 'write', 'convert')
 # dictionary of supported formats for parse() and read()
 _ITERATOR_MAP = {
         'anarci-num': ('AnarciIO', 'AnarciNumParser'),
-        'anarci-hits': ('AnarciIO', 'AnarciHitsParser')
+        'anarci-hits': ('AnarciIO', 'AnarciHitsParser'),
         'blast-tab': ('BlastIO', 'BlastTabParser'),
         'blast-text': ('BlastIO', 'BlastTextParser'),
         'blast-xml': ('BlastIO', 'BlastXmlParser'),
