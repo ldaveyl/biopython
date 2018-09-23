@@ -236,7 +236,7 @@ _ITERATOR_MAP = {
 # dictionary of supported formats for index()
 _INDEXER_MAP = {
         'anarci-num': ('AnarciIO', 'AnarciNumIndexer'),
-        'anarci-hits': ('AnarciIO', 'AnarciHitsIndexer')
+        'anarci-hits': ('AnarciIO', 'AnarciHitsIndexer'),
         'blast-tab': ('BlastIO', 'BlastTabIndexer'),
         'blast-xml': ('BlastIO', 'BlastXmlIndexer'),
         'blat-psl': ('BlatIO', 'BlatPslIndexer'),
